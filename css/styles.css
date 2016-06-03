@@ -1,7 +1,15 @@
 #destination1, #destination2, #destination3 {
   display: none;
+  text-align: center;
 }
 
 img {
-  width: 400px;
+  max-width: 500px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.footer {
+  text-align: center;
 }

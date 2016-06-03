@@ -6,11 +6,11 @@ $(document).ready(function() {
    var question4 = $("select#question4").val();
    var question5 = $("select#question5").val();
 
-   if (question1 === "1" && question2 ==="1"){
+   if (question1 === "a"){
      $('#destination1').show();
-   } else if (question1 === "2" && question2 ==="2"){
+   } else if (question1 === "b"){
      $('#destination2').show();
-   } else if (question1 === "3" && question2 ==="3"){
+   } else if (question1 === "c"){
      $('#destination3').show();
    }
 

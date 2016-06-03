@@ -10,85 +10,94 @@
     </head>
     <body>
       <div class="container">
-        <h1>Vacation Suggester</h1>
-        <p>Fill out this survey to discover your perfect vacation destination!</p>
-        <div id="blanks">
-          <form id="vacation-survey">
-            <div class="form-group">
-              <label for="yourName">Your name</label>
-              <input id="yourName" class="form-control" type="text">
-            </div>
+        <img src="img/map-header.jpg" class="img-responsive" alt="Map and compass">
+        <div class="jumbotron">
+          <h1>Discover your dream destination!</h1>
+          <br>
+          <p>Fill out this survey to discover your perfect vacation destination!</p>
+          <div id="blanks">
+            <form id="vacation-survey">
+              <div class="form-group">
+                <label for="yourName">Your name</label>
+                <input id="yourName" class="form-control" type="text">
+              </div>
 
-            <label for="question1">When outdoors, your favorite activity is...</label>
-            <select id="question1">
-              <option value="1">Hiking majestic trails</option>
-              <option value="2">Skiing the freshest powder</option>
-              <option value="3">Snokeling clear blue waters</option>
-            </select>
+              <label for="question1">When outdoors, your favorite activity is...</label>
+              <select id="question1">
+                <option value="a">Hiking majestic trails</option>
+                <option value="b">Skiing the freshest powder</option>
+                <option value="c">Snokeling clear blue waters</option>
+              </select>
 
-            <br>
-            <br>
+              <br>
+              <br>
 
-            <label for="question2">When indoors, your favorite activity is...</label>
-            <select id="question2">
-              <option value="1">Planning your next extreme outdoor adventure</option>
-              <option value="2">Reading on a scenic train ride</option>
-              <option value="3">Relaxing with an ice cold beer</option>
-            </select>
+              <label for="question2">When indoors, your favorite activity is...</label>
+              <select id="question2">
+                <option value="a">Planning your next extreme outdoor adventure</option>
+                <option value="b">Reading on a scenic train ride</option>
+                <option value="c">Relaxing with an ice cold beer</option>
+              </select>
 
-            <br>
-            <br>
+              <br>
+              <br>
 
-            <label for="question3">Your favorite sweet treat is...</label>
-            <select id="question3">
-              <option value="1">Kiwi fruit</option>
-              <option value="2">Chocolate</option>
-              <option value="3">Shaved ice</option>
-            </select>
+              <label for="question3">Your favorite sweet treat is...</label>
+              <select id="question3">
+                <option value="a">Kiwi fruit</option>
+                <option value="b">Chocolate</option>
+                <option value="c">Shaved ice</option>
+              </select>
 
-            <br>
-            <br>
+              <br>
+              <br>
 
-            <label for="question4">Your favorite vacation libation is...</label>
-            <select id="question4">
-              <option value="1">A full glass of red wine</option>
-              <option value="2">A local brew</option>
-              <option value="3">A fresh pina colada</option>
-            </select>
+              <label for="question4">Your favorite vacation libation is...</label>
+              <select id="question4">
+                <option value="a">A full glass of red wine</option>
+                <option value="b">A local brew</option>
+                <option value="c">A fresh pina colada</option>
+              </select>
 
-            <br>
-            <br>
+              <br>
+              <br>
 
-            <label for="question5">When the sun sets, you can be found...</label>
-            <select id="question5">
-              <option value="1">Staring up at the night sky</option>
-              <option value="2">Lounging by the fireplace</option>
-              <option value="3">Dancing at the nightclub</option>
-            </select>
+              <label for="question5">When the sun sets, you can be found...</label>
+              <select id="question5">
+                <option value="a">Staring up at the night sky</option>
+                <option value="b">Lounging by the fireplace</option>
+                <option value="c">Dancing at the nightclub</option>
+              </select>
 
-            <br>
-            <br>
+              <br>
+              <br>
 
-            <button type="submit" class="btn">Find my dream destination!</button>
-          </form>
+              <button type="submit" class="btn btn-success">Find my dream destination!</button>
+            </form>
+          </div>
         </div>
 
         <div id="destination1">
           <h1><span class="yourName"></span>, your dream destination is New Zealand!</h1>
           <p>Widely held to be one of the most breathtaking countries on the planet, New Zealand is a phenomenal travel destination. The rugged mountains and remote valleys that thrust the destination into the world's spotlight through The Lord of the Rings trilogy tell only part of the story. You'll also find beaches, fjords, lakes and gorgeous swathes of forest, not to mention age-old Maori culture, forward-looking cities and, famously, a world-class array of outdoor activities.</p>
-          <img src="img/new-zealand.jpg" alt="New Zealand">
+          <img src="img/new-zealand.jpg" class="img-responsive" alt="New Zealand">
         </div>
 
         <div id="destination2">
           <h1><span class="yourName"></span>, your dream destination is Switzerland!</h1>
           <p>Combining expansive greenery, slick cities and bucketfuls of fresh air, Switzerland is a stylish tourist destination offering countless outdoor adventures and contemporary urban breaks. Switzerland's Alpine vistas are so picture perfect, they can appear plucked from the pages of a storybook. But these disarming landscapes are alive and kicking, as a spot of skiing, hiking or mountain biking will attest.</p>
-          <img src="img/switzerland.jpg" alt="Switzerland">
+          <img src="img/switzerland.jpg" class="img-responsive" alt="Switzerland">
         </div>
 
         <div id="destination3">
           <h1><span class="yourName"></span>, your dream destination is Puerto Rico!</h1>
           <p>Think palm-fringed beaches, colourful colonial buildings and a harmony of Caribbean, Hispanic and American cultures, and you've got Puerto Rico in a nutshell. A coconut shell, of course. Add to this swathes of tropical rainforest, warm turquoise waters and year-round sunshine and you have all the hallmarks of a perfect holiday destination.</p>
-          <img src="img/puerto-rico.jpg" alt="Puerto Rico">
+          <img src="img/puerto-rico.jpg" class="img-responsive" alt="Puerto Rico">
+        </div>
+
+        <hr>
+        <div class="footer">
+          <p>&copy; 2016 Olivia Hinton</p>
         </div>
 
       </div>
