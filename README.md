@@ -18,7 +18,7 @@ _This website questionnaire will help you discover your dream vacation destinati
 ## Known Bugs
 
 _I have yet to figure how to do the following tasks:_
-* _Prompt error alert message and add Bootstrap form validation states when the user doesn't enter in a name._
+* _When the user doesn't enter a name in the input field, how to prompt the error alert only once, add Bootstrap form validation states and how to prevent the result from displaying initially._ 
 * _How to replace the first result with a new result without refreshing the page._
 * _A way to incorporate more and/or all the question answers into the result._
 

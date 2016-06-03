@@ -14,14 +14,17 @@ $(document).ready(function() {
      $('#destination3').show();
    }
 
-  $("#blanks").submit(function(event) {
-    var yourNameInput = $("input#yourName").val();
+   $("#blanks").submit(function(event) {
+     var yourNameInput = $("input#yourName").val();
 
-    if (yourNameInput){
-      $(".yourName").text(yourNameInput);
-    } else {
-      alert('Please enter your name!');
-    }
+     if (yourNameInput){
+       $(".yourName").text(yourNameInput);
+     } else {
+       alert('Please enter your name!');
+       $("#destination1").hide();
+       $("#destination2").hide();
+       $("#destination3").hide();
+     }
 
    event.preventDefault();
   });
