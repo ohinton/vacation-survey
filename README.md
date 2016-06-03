@@ -17,7 +17,10 @@ _This website questionnaire will help you discover your dream vacation destinati
 
 ## Known Bugs
 
-_None_
+_I have yet to figure how to do the following tasks:_
+* _Prompt error alert message and add Bootstrap form validation states when the user doesn't enter in a name._
+* _How to replace the first result with a new result without refreshing the page._
+* _A way to incorporate more and/or all the question answers into the result._
 
 ## Support and contact details
 

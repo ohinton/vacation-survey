@@ -17,7 +17,11 @@ $(document).ready(function() {
   $("#blanks").submit(function(event) {
     var yourNameInput = $("input#yourName").val();
 
-    $(".yourName").text(yourNameInput);
+    if (yourNameInput){
+      $(".yourName").text(yourNameInput);
+    } else {
+      alert('Please enter your name!');
+    }
 
    event.preventDefault();
   });
