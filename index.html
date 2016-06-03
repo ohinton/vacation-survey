@@ -13,33 +13,84 @@
         <h1>Vacation Suggester</h1>
         <p>Fill out this survey to discover your perfect vacation destination!</p>
         <div id="blanks">
-          <form>
+          <form id="vacation-survey">
             <div class="form-group">
               <label for="yourName">Your name</label>
               <input id="yourName" class="form-control" type="text">
             </div>
-            <button type="submit" class="btn">Find my dream vacation!</button>
+
+            <label for="question1">When outdoors, your favorite activity is...</label>
+            <select id="question1">
+              <option value="1">Hiking majestic trails</option>
+              <option value="2">Skiing the freshest powder</option>
+              <option value="3">Snokeling clear blue waters</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="question2">When indoors, your favorite activity is...</label>
+            <select id="question2">
+              <option value="1">Planning your next extreme outdoor adventure</option>
+              <option value="2">Reading on a scenic train ride</option>
+              <option value="3">Relaxing with an ice cold beer</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="question3">Your favorite sweet treat is...</label>
+            <select id="question3">
+              <option value="1">Kiwi fruit</option>
+              <option value="2">Chocolate</option>
+              <option value="3">Shaved ice</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="question4">Your favorite vacation libation is...</label>
+            <select id="question4">
+              <option value="1">A full glass of red wine</option>
+              <option value="2">A local brew</option>
+              <option value="3">A fresh pina colada</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="question5">When the sun sets, you can be found...</label>
+            <select id="question5">
+              <option value="1">Staring up at the night sky</option>
+              <option value="2">Lounging by the fireplace</option>
+              <option value="3">Dancing at the nightclub</option>
+            </select>
+
+            <br>
+            <br>
+
+            <button type="submit" class="btn">Find my dream destination!</button>
           </form>
         </div>
 
         <div id="destination1">
-          <h1><span class="yourName"></span>, your dream vacation is New Zealand!</h1>
+          <h1><span class="yourName"></span>, your dream destination is New Zealand!</h1>
           <p>Info about New Zealand</p>
           <img src="#" alt="New Zealand">
         </div>
 
         <div id="destination2">
-          <h1><span class="yourName"></span>, your dream vacation is Switzerland!</h1>
+          <h1><span class="yourName"></span>, your dream destination is Switzerland!</h1>
           <p>Info about Switzerland</p>
           <img src="#" alt="Switzerland">
         </div>
 
         <div id="destination3">
-          <h1><span class="yourName"></span>, your dream vacation is Brazil!</h1>
-          <p>Info about Brazil</p>
-          <img src="#" alt="Brazil">
+          <h1><span class="yourName"></span>, your dream destination is Puerto Rico!</h1>
+          <p>Info about Puerto Rico</p>
+          <img src="#" alt="Puerto Rico">
         </div>
-        
+
       </div>
     </body>
   </html>
