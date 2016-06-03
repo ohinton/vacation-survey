@@ -6,7 +6,7 @@ $(document).ready(function() {
    var question4 = $("select#question4").val();
    var question5 = $("select#question5").val();
 
-   if (question1 === "1" && question2 ==="1") {
+   if (question1 === "1" && question2 ==="1"){
      $('#destination1').show();
    } else if (question1 === "2" && question2 ==="2"){
      $('#destination2').show();
@@ -14,6 +14,12 @@ $(document).ready(function() {
      $('#destination3').show();
    }
 
+  $("#blanks").submit(function(event) {
+    var yourNameInput = $("input#yourName").val();
+
+    $(".yourName").text(yourNameInput);
+
    event.preventDefault();
- });
+  });
+});
 });
