@@ -1,3 +1,7 @@
 #destination1, #destination2, #destination3 {
   display: none;
 }
+
+img {
+  width: 400px;
+}
