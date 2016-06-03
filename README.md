@@ -13,7 +13,7 @@ _This website questionnaire will help you discover your dream vacation destinati
 * _Clone this repository_
 * _Open a HTML file_
 * _Open web browser of choice_
-* _GitHub Pages: http://ohinton.github.io/vacation-survey_
+* _GitHub Pages: http://ohinton.github.io/vacation-survey/_
 
 ## Known Bugs
 
