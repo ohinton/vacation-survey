@@ -15,13 +15,6 @@ _This website questionnaire will help you discover your dream vacation destinati
 * _Open web browser of choice_
 * _GitHub Pages: http://ohinton.github.io/vacation-survey/_
 
-## Known Bugs
-
-_I'm still figuring out the following features:_
-* _When the user doesn't enter a name in the input field, how to prompt the error alert only once, add Bootstrap form validation states and how to prevent the result from displaying initially._
-* _How to replace the first result with a new result without refreshing the page._
-* _A way to incorporate more or all of the question answers into the result._
-
 ## Support and contact details
 
 _Olivia Hinton: hinton.olivia@gmail.com_
